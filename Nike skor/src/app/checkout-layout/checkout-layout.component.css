@@ -11,7 +11,10 @@
     padding: 20px;
     
 }
-
+ #register-app {
+   margin-top: -6%; 
+   margin-bottom: -6%;  
+ }
 .order-info2 {
     width: 100%;
 }
@@ -38,7 +41,7 @@
 }
 
 .card-header {
-    background-color: #404040;
+    background-color: #7195a7;
 }
 
 .card-body {
