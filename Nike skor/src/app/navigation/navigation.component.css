@@ -1,0 +1,108 @@
+.fa-shopping-cart {
+  font-size: 25px;
+}
+
+.mylogo {
+  color: #6da3be !important;
+}
+
+.fa-shopping-cart {
+  color: #6da3be !important;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.logo strong {
+  color: #6da3be;
+}
+
+.workside {
+  background-color: white;
+  margin-top: 0%;
+  padding-top: 0%;
+  height: 75px;
+  z-index: 500;
+}
+
+.workside span {
+  color: black;
+}
+
+.user {
+  text-transform: uppercase;
+}
+
+.rel-li {
+  position: relative;
+}
+
+.itemQuantity {
+  background: rgb(202, 163, 163);
+  color: black;
+  border-radius: 7px;
+  padding: 0 4px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+.workside a {
+  color: #7a7a7a;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+}
+
+.search {
+  position: flex;
+  margin-left: -25%;
+}
+
+li {
+  margin-left: 20px;
+}
+
+/* .workside a.hover-color:hover,
+.workside a.hover-color:active {
+  color: black;
+  -webkit-transition: 0.15s;
+} */
+
+button .navbar-toggler {
+  z-index: 50;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #f0f0f0;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(240,240,240)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.mobil-cart {
+  visibility: hidden;
+}
+
+
+@media (max-width: 990px) {
+  .mobil-cart {
+    visibility: visible;
+  }
+
+  .computer-cart {
+    visibility: hidden;
+  }
+  .navbgcollapse {
+    background-color: rgba(255, 255, 255, 0.835);
+    color: black;
+    margin-top: 20px;
+    padding-top: 0%;
+    height: auto;
+    width: auto;
+    z-index: 500;
+  }
+}

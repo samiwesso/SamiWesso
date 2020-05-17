@@ -1,0 +1,70 @@
+.fpad {
+  padding-left: 50px;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+input {
+  font-size: 16px;
+}
+
+.input-group-addon {
+  width: 40px;
+  background-color: #d5d3dd;
+  color: #6da3be ;
+  border: 0 !important;
+  padding: 5px;
+}
+
+.validate {
+  padding: 0px 0px 5px 10px;
+}
+
+::-webkit-input-placeholder {
+  color: #40404086;
+  font-size: 16px;
+}
+
+:-ms-input-placeholder {
+  color: #40404086;
+  font-size: 16px;
+}
+
+::-ms-input-placeholder {
+  color: #40404086;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: #40404086;
+  font-size: 16px;
+}
+
+#inner-wrapper,
+#contact-us .contact-form,
+#contact-us .our-address {
+  background-color: #6da3be0c !important;
+  color: black;
+  font-size: 20px;
+  padding: 50px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn {
+  border-radius: 0;
+  border: 1px solid #f0f0f0;
+  color: #f0f0f0;
+  background-color: #6da3be;
+  font-weight: 600;
+}
+
+.btn:hover {
+  border: 1px solid #aaaaaa;
+  background-color: #7a7a7a;
+  text-decoration: none;
+}
+/*# sourceMappingURL=register.component.css.map */

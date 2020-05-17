@@ -1,0 +1,31 @@
+img {
+  width: 50px;
+}
+
+.container {
+  margin-top: 150px;
+}
+
+
+.btn {
+
+  background-color: none !important;
+  font-weight: 600;
+}
+
+.fa-trash-alt {
+  background-color: red;
+}
+
+.btn:hover {
+  border: 1px solid #aaaaaa;
+  background-color: #7a7a7a;
+  text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+  a i {
+    display: none;
+  }
+}
+/*# sourceMappingURL=shopping-cart.component.css.map */

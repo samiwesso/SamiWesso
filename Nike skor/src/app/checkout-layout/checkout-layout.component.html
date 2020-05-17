@@ -1,0 +1,142 @@
+<app-navigation></app-navigation>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="accordion" id="accordionExample">
+
+        <!-- Shipping Information -->
+
+        <div class="card">
+          <button class="btn btn-link collapsed card-header text-left" id="headingOne" type="button"
+            data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <p class="m-0 p-0">Shipping information</p>
+          </button>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+<h3 class="text-center mt-2">Please register or login to complete shop process</h3>
+           <app-register></app-register>
+
+          </div>
+
+          <!-- Shipping Method -->
+
+          <div class="card">
+            <button class="btn btn-link collapsed card-header text-left" id="headingTwo" type="button"
+              data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <p class="m-0 p-0">Shipping method</p>
+            </button>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body ">
+                <div class="checkout-information">
+                  <div class="paymentCont">
+                    <div class="headingWrap">
+                      <h3 class="headingTop text-center mb-4">Select your shipping method</h3>
+                    </div>
+                    <div class="paymentWrap">
+                      <div class="paymentBtnGroup btn-group-justified" data-toggle="buttons">
+                        <div class="row align-items-center checkout-border ">
+                          <div class="col border-right">
+                            <label class="btn paymentMethod active">
+                              <div class="method postnord"></div>
+                              <input type="radio" name="options" checked>
+                            </label>
+                          </div>
+                          <div class="col d-flex justify-content-center">
+                            <label for="">2 - 5 days delivery (+ $4)</label>
+                          </div>
+                        </div>
+                        <div class="row align-items-center checkout-border">
+                          <div class="col border-right">
+                            <label class="btn paymentMethod">
+                              <div class="method dhl"></div>
+                              <input type="radio" name="options">
+                            </label>
+                          </div>
+                          <div class="col d-flex justify-content-center">
+                            <label for="">1 - 2 days delivery (+ $10)</label>
+                          </div>
+                        </div>
+                        <div class="row align-items-center">
+                          <div class="col border-right">
+                            <label class="btn paymentMethod">
+                              <div class="method fedex"></div>
+                              <input type="radio" name="options">
+                            </label>
+                          </div>
+                          <div class="col d-flex justify-content-center">
+                            <label for="">1 - 2 days delivery (+ $10)</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Payment -->
+
+          <div class="card">
+            <button class="btn btn-link collapsed card-header text-left" id="headingThree" type="button"
+              data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <p class="m-0 p-0">Payment</p>
+            </button>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <div class="checkout-information">
+                  <div class="paymentCont">
+                    <div class="headingWrap">
+                      <h3 class="headingTop text-center mb-4">Select your payment method</h3>
+                    </div>
+                    <div class="paymentWrap">
+                      <div class="paymentBtnGroup btn-group-justified" data-toggle="buttons">
+                        <div class="row align-items-center checkout-border ">
+                          <div class="col border-right">
+                            <label class="btn paymentMethod active">
+                              <div class="method mastercard"></div>
+                              <input type="radio" name="options" checked>
+                            </label>
+                          </div>
+                          <div class="col d-flex justify-content-center">
+                            <label for="">Pay with Mastercard.</label>
+                          </div>
+                        </div>
+                        <div class="row align-items-center checkout-border">
+                          <div class="col border-right">
+                            <label class="btn paymentMethod">
+                              <div class="method paypal"></div>
+                              <input type="radio" name="options">
+                            </label>
+                          </div>
+                          <div class="col d-flex justify-content-center">
+                            <label for="">Pay with Paypal.</label>
+                          </div>
+                        </div>
+                        <div class="row align-items-center">
+                          <div class="col border-right">
+                            <label class="btn paymentMethod">
+                              <div class="method swish"></div>
+                              <input type="radio" name="options">
+                            </label>
+                          </div>
+                          <div class="col d-flex justify-content-center">
+                            <label for="">Pay with Swish.</label>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+

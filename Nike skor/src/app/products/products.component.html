@@ -1,0 +1,20 @@
+<div class="">
+  <div class="">
+    <div class="product-grid2">
+      <div class="product-image2">
+        <a routerLink="/product-info">
+          <img class="pic-1" src="{{ product.img }}" />
+        </a>
+        <a class="add-to-cart" [routerLink]="[{ id: product.id }]"
+          >Add to cart</a
+        >
+      </div>
+      <div class="product-content">
+        <h3 class="title">
+          <a href="#">{{ product.name }}</a>
+        </h3>
+        <span class="price">${{ product.price }}</span>
+      </div>
+    </div>
+  </div>
+</div>
