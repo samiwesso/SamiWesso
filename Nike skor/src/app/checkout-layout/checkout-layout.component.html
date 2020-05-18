@@ -14,7 +14,103 @@
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
             <h3 class="text-center mt-2">Please login or register to complete shop process</h3>
            
-              <app-login></app-login>
+            <div class="card-body">
+              <div class="form-group row">
+                <div class="form-group col-md-6">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"> </i></span>
+                    <input type="text" class="form-control inputpadding" value="{{ user.firstname }}" placeholder="Firstname..." id="firstname"
+                      type="text">
+                    <!-- [ngClass]="{ 'has-error' : isSubmitted && formControls.firstname.errors }" class="validate">
+                        <span class="helper-text">
+                          <div *ngIf="isSubmitted && formControls.firstname.errors" class="text-danger">
+                            <div *ngIf="formControls.firstname.errors.required">
+                              First name address is required!
+                            </div>
+                          </div>
+                        </span> -->
+                  </div>
+                </div>
+                <div class="form-group col-md-6">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"> </i></span>
+                    <input type="text" value="{{ user.lastname }}" class="form-control inputpadding" placeholder="Lastname..." id="lastname"
+                      type="text">
+                    <!-- [ngClass]="{ 'has-error' : isSubmitted && formControls.lastname.errors }" class="validate">
+                        <span class="helper-text">
+                          <div *ngIf="isSubmitted && formControls.lastname.errors" class="text-danger">
+                          <div *ngIf="formControls.lastname.errors.required">
+                            Last name address is required!
+                          </div>
+                          </div>
+                        </span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="form-group col-md-6">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-map-marker-alt"> </i></span>
+                    <input type="text" value="{{ user.addressline }}" class="form-control inputpadding" placeholder="Addressline..." id="addressline"
+                      type="text">
+                    <!-- [ngClass]="{ 'has-error' : isSubmitted && formControls.addressline.errors }" class="validate">
+                        <span class="helper-text">
+                          <div *ngIf="isSubmitted && formControls.addressline.errors" class="text-danger">
+                          <div *ngIf="formControls.firstname.errors.required">
+                            Address is required!
+                          </div>
+                          </div>
+                        </span> -->
+                  </div>
+                </div>
+                <div class="form-group col-md-6">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-map-marker-alt"> </i></span>
+                    <input type="text" value="{{ user.zipcode }}" class="form-control inputpadding" placeholder="Zipcode..." id="zipcode"
+                      type="text">
+                    <!-- [ngClass]="{ 'has-error' : isSubmitted && formControls.zipcode.errors }" class="validate">
+                        <span class="helper-text">
+                          <div *ngIf="isSubmitted && formControls.zipcode.errors" class="text-danger">
+                          <div *ngIf="formControls.zipcode.errors.required">
+                            zipcode is required!
+                          </div>
+                          </div>
+                        </span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="form-group col-md-6">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-map-marker-alt"> </i></span>
+                    <input type="text" value="{{ user.city }}" class="form-control inputpadding" placeholder="City..." id="city" type="text">
+                    <!-- [ngClass]="{ 'has-error' : isSubmitted && formControls.city.errors }" class="validate">
+                        <span class="helper-text">
+                          <div *ngIf="isSubmitted && formControls.city.errors" class="text-danger">
+                          <div *ngIf="formControls.city.errors.required">
+                            City is required!
+                          </div>
+                          </div>
+                        </span> -->
+                  </div>
+                </div>
+                <div class="form-group col-md-6">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-map-marker-alt"> </i></span>
+                    <input type="text" value="{{ user.country }}" class="form-control inputpadding" placeholder="Country..." id="country"
+                      type="text">
+                    <!-- [ngClass]="{ 'has-error' : isSubmitted && formControls.country.errors }" class="validate">
+                        <span class="helper-text">
+                          <div *ngIf="isSubmitted && formControls.country.errors" class="text-danger">
+                          <div *ngIf="formControls.country.errors.required">
+                            Country is required!
+                          </div>
+                          </div>
+                        </span> -->
+                  </div>
+                </div>
+              </div>
+            </div>
         
 
           </div>
